@@ -51,6 +51,7 @@ func TestCafeWhenOk(t *testing.T) {
 	}
 }
 
+// комментарий
 func TestCafeCount(t *testing.T) {
 	x := len(cafeList["moscow"])
 	requests := []struct {
